@@ -3,6 +3,10 @@
 
     <string name="app_name">FlagRun</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
+    <string name="main_menu_title">Welcom to FlagRun!</string>
+    <dimen name="main_menu_buttons_width">200dp</dimen>
+    <string name="main_menu_create_game_button_caption">Create New Game</string>
+    <string name="main_menu_join_game_button_caption">Join Existing Game</string>
 
 </resources>
