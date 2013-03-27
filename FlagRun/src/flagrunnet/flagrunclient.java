@@ -26,7 +26,7 @@ public class flagrunclient
 	{
 		try {
 			m_serverAdress = InetAddress.getByName(netsettings.SERVER_IP);
-			m_clientSocket = new DatagramSocket(netsettings.CLIENT_PORT_UDP);
+			m_clientSocket = new DatagramSocket();
 			m_tcpSocket = new Socket(m_serverAdress, netsettings.CLIENT_PORT_TCP);
 		} catch (SocketException e) {
 			// TODO : add handle
