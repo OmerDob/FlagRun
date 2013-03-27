@@ -78,6 +78,7 @@ public class flagrunclient
 	{
 		// Create a package to send
 		DatagramPacket pack = new DatagramPacket(message, message.length);
+		pack.setPort(netsettings.CLIENT_PORT_UDP);
 		pack.setAddress(m_serverAdress);
 		
 		try {
