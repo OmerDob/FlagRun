@@ -9,16 +9,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@strings/main_menu_title" />
+        android:text="@string/main_menu_title" />
     
-    <Button
-        android:layout_width="@strings/main_menu_button_size"
+    <Button 
+        android:layout_width="@dimen/main_menu_buttons_width"
         android:layout_height="wrap_content"
-        android:text="@strings/main_menu_create_game_button_caption" />
+        android:layout_gravity="center"
+        android:text="@string/main_menu_create_game_button" />
     
-    <Button
-        android:layout_width="@strings/main_menu_button_size"
+    <Button 
+        android:layout_width="@dimen/main_menu_buttons_width"
         android:layout_height="wrap_content"
-        android:text="@strings/main_menu_join_game_button_caption" />
+        android:layout_gravity="center"
+        android:text="@string/main_menu_join_game_button" />
 
 </LinearLayout>
